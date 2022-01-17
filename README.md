@@ -19,15 +19,23 @@ Sırasıyla komutlar çalıştırılır.
 
 MariaDB sunucusunu kurmuş bulunmaktayız. Sunucunun sağlıklı bir şekilde kurulduğunu teyit edelim.
 - sudo systemctl status mariadb
+
 Daha sonra sunucumuzda kurulu olan MariaDB’nin versiyonunu kontrol edelim.
 - mysql -V
+
 MariaDB’nin sağlıklı bir şekilde kurulduktan sonra güvenliği için kullanıcı ve sunucu ayarlarını yapalım.
 - sudo mysql_secure_installation
+
 Enter current password for root (enter for none): -> Daha şifremiz olmadığı için enter ile geçiyoruz
+
 Set root password? [Y/n] -> Burada seçeneğimiz y. Root kullanıcısının şifresini belirleyelim. Daha sonra gelecek seçenekleri aşağıdaki gibi konfigüre ediyoruz.
+
 Remove anonymous users? [Y/n] y
+
 Disallow root login remotely? [Y/n] y
+
 Remove test database and access to it? [Y/n] y
+
 Reload privilege tables now? [Y/n] y
 
 MariaDB kurulum ve konfigürasyon işlemleri tamamlandı. Veritabanı sunucumuza giriş yapıp işlemlerimizi 
