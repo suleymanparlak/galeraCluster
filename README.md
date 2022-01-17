@@ -51,4 +51,8 @@ Kurulumda kullanacağım node bilgileri
 
 ![image](https://user-images.githubusercontent.com/72556168/149827418-385085f1-7cc4-46b0-b127-51e6c689d48c.png)
 
+Galera konfigürasyon dosyası oluştururak işimize başlayalım. - sudo nano /etc/mysql/mariadb.conf.d/galera.cnf
+![image](https://user-images.githubusercontent.com/72556168/149827514-d177c3f9-5798-473e-8720-1a3fe3da3e8d.png)
+
+
 
