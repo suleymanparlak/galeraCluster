@@ -63,14 +63,14 @@ default_storage_engine=InnoDB
 binlog_format=row 
 innodb_autoinc_lock_mode=2
 
-Galera cluster konfigürasyonu
+-Galera cluster konfigürasyonu
 
 wsrep_on=ON
 wsrep_provider=/usr/lib/galera/libgalera_smm.so wsrep_cluster_address="gcomm://10.8.130.223,10.8.129.16,10.8.128.254" 
 wsrep_cluster_name="mariadb-galera-cluster" 
 wsrep_sst_method=rsync 
 
-Cluster node konfigürasyonu
+-Cluster node konfigürasyonu
 wsrep_node_address="10.8.128.254" 
 wsrep_node_name="node1" 
 
@@ -82,14 +82,14 @@ default_storage_engine=InnoDB
 binlog_format=row
 innodb_autoinc_lock_mode=2 
 
-Galera cluster configuration
+-Galera cluster configuration
 
 wsrep_on=ON wsrep_provider=/usr/lib/galera/libgalera_smm.so
 wsrep_cluster_address="gcomm://10.8.130.223,10.8.129.16,10.8.128.254"
 wsrep_cluster_name="mariadb-galera-cluster"
 wsrep_sst_method=rsync
 
-Cluster node configuration
+-Cluster node configuration
 
 wsrep_node_address="10.8.129.16"
 wsrep_node_name="node2" 
@@ -102,14 +102,14 @@ default_storage_engine=InnoDB
 binlog_format=row
 innodb_autoinc_lock_mode=2 
 
-Galera cluster configuration
+-Galera cluster configuration
 
 wsrep_on=ON wsrep_provider=/usr/lib/galera/libgalera_smm.so
 wsrep_cluster_address="gcomm://10.8.130.223,10.8.129.16,10.8.128.254"
 wsrep_cluster_name="mariadb-galera-cluster"
 wsrep_sst_method=rsync
 
-Cluster node configuration
+-Cluster node configuration
 
 wsrep_node_address="10.8.128.254 "
 wsrep_node_name="node3" 
