@@ -43,7 +43,7 @@ create database bilgem;
 
 Tekrar veritabanlarını listelersek oluşacak çıktı:
 
-![image](https://user-images.githubusercontent.com/72556168/149827200-d7830b22-41ed-47f7-93dc-f03445856980.png)
+![image](https://user-images.githubusercontent.com/72556168/149827457-f8bbee36-cf18-4577-9877-53e646eafa6f.png)
 
 GALERA CLUSTER KURULUMU
 
