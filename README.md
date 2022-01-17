@@ -48,5 +48,7 @@ Tekrar veritabanlarını listelersek oluşacak çıktı:
 GALERA CLUSTER KURULUMU
 
 Kurulumda kullanacağım node bilgileri
-![image](https://user-images.githubusercontent.com/72556168/149827373-ebdef0f5-2678-4eb5-aaa8-f9239472d0ea.png)
+
+![image](https://user-images.githubusercontent.com/72556168/149827418-385085f1-7cc4-46b0-b127-51e6c689d48c.png)
+
 
