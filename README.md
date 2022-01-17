@@ -1,5 +1,7 @@
 # galeraCluster
+
 MariaDB ve Galera Cluster
+
 MariaDB, açık kaynaklı bir RDBMS yani ilişkisel veritabanı sunucusudur. MySQL’in geliştiricisi tarafından geliştirilmiştir. 
 MySQL ile aynı altyapı üzerinde olduğundan dolayı MySQL ile uyumlu araçları ve komutları destekler. Bu nedenle MySQL kullanılan sistemlerden geçiş kolay olmaktadır.
 
@@ -31,6 +33,20 @@ Reload privilege tables now? [Y/n] y
 MariaDB kurulum ve konfigürasyon işlemleri tamamlandı. Veritabanı sunucumuza giriş yapıp işlemlerimizi 
 gerçekleştirmeye başlayabiliriz. Arayüze erişim sağlayalım.
 - mysql -u root -p 
+
 Giriş yaptıktan sonra mevcut veritabanlarını listeleyelim
+
 ![image](https://user-images.githubusercontent.com/72556168/149827148-a5257066-b77c-45d6-9a51-20dae6c83063.png)
+
+Bilgem adında yeni bir database oluşturalım.
+create database bilgem;
+
+Tekrar veritabanlarını listelersek oluşacak çıktı:
+
+![image](https://user-images.githubusercontent.com/72556168/149827200-d7830b22-41ed-47f7-93dc-f03445856980.png)
+
+GALERA CLUSTER KURULUMU
+
+Kurulumda kullanacağım node bilgileri
+![image](https://user-images.githubusercontent.com/72556168/149827373-ebdef0f5-2678-4eb5-aaa8-f9239472d0ea.png)
 
